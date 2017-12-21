@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "chinanorth"
+    },
+    "adminUsername": {
+      "value": "sysadmin"
+    },
+    "instanceCount": {
+      "value": "0"
+    },
+    "image": {
+      "value": {
+        "offer": "CentOS",
+        "publisher": "OpenLogic",
+        "sku": "7.2",
+        "version": "latest"
+      }
+    },
+    "singlePlacementGroup": {
+      "value": "true"
+    },
+    "adminPassword": {
+      "value": "Passw0rd!0000"
+    },
+    "ipAllocationMethod": {
+      "value": "Dynamic"
+    }
+  }
+}
